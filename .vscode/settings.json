@@ -3,4 +3,7 @@
   "editor.formatOnSave": true,
   "standard.enable": false,
   "standard.autoFixOnSave": false,
+  "files.exclude": {
+    "**/node_modules": false
+  }
 }
