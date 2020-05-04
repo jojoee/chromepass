@@ -1,6 +1,6 @@
 {
   "name": "chromepass",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/src/chromepass.js",
   "types": "dist/src/chromepass.d.ts",
