@@ -1,11 +1,10 @@
-import { possibleSpace } from './common'
-import shuffle from 'fast-shuffle'
+const shuffle = require('fast-shuffle').default
 const {
   lowercase,
   uppercase,
   number,
   specialCharacter,
-} = possibleSpace
+} = require('./common').possibleSpace
 const passwordLength = 15
 
 /**

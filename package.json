@@ -4,6 +4,10 @@
   "description": "",
   "main": "dist/src/chromepass.js",
   "types": "dist/src/chromepass.d.ts",
+  "preferGlobal": false,
+  "bin": {
+    "chromepass": "./bin/chromepass.js"
+  },
   "scripts": {
     "prepublishOnly": "npm run clean && npm run compile",
     "compile": "tsc",
