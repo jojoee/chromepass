@@ -34,7 +34,15 @@
     "type": "git",
     "url": "git+https://github.com/jojoee/chromepass.git"
   },
-  "keywords": [],
+  "keywords": [
+    "password",
+    "secure",
+    "chrome",
+    "random",
+    "generate",
+    "generator",
+    "authentication"
+  ],
   "author": "Nathachai Thongniran <inid3a@gmail.com> (https://github.com/jojoee)",
   "license": "SEE LICENSE IN <LICENSE>",
   "bugs": {
