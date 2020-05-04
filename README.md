@@ -20,9 +20,20 @@ npm install git+ssh://git@github.com/jojoee/chromepass
 ## Example usage
 
 ```typescript
-import chromepass from 'chromepass'
-// TODO: describe usage
+// commonjs
+const { generator } = require('chromepass').default.v1
+for (let i = 0; i < 10; i++) {
+  const password = generator()
+  console.log(password)
+}
 
+// ES6
+import chromepass from "chromepass"
+const generator = chromepass.v1.generator
+for (let i = 0; i < 10; i++) {
+  const password = generator()
+  console.log(password)
+}
 ```
 
 ## Algorithm
