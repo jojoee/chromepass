@@ -1,6 +1,6 @@
 {
   "name": "chromepass",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/src/chromepass.js",
   "types": "dist/src/chromepass.d.ts",
@@ -75,7 +75,8 @@
     "typescript": "^3.4.1"
   },
   "files": [
-    "dist/src/"
+    "dist/src/",
+    "bin"
   ],
   "ava": {
     "compileEnhancements": false,
