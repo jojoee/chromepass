@@ -31,7 +31,7 @@ function generator(): string {
   password += specialCharacter[randomBetween(0, specialCharacter.length - 1)]
 
   // generate the rest
-  const possibleStr = lowercase + uppercase + number + specialCharacter
+  const possibleStr = ''.concat(lowercase, uppercase, number, specialCharacter)
   const nRemainingChars = passwordLength - password.length
   for (let i = 0; i < nRemainingChars; i++) {
     password += possibleStr[randomBetween(0, possibleStr.length - 1)]
