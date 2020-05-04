@@ -15,6 +15,10 @@ Google Chrome password generator algorithm.
 npm install chromepass
 // or
 npm install git+ssh://git@github.com/jojoee/chromepass
+// or run globally
+npm install -g chromepass
+chromepass
+chromepass 10
 ```
 
 ## Example usage
