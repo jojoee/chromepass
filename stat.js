@@ -1,6 +1,6 @@
-const { table } = require('table') // eslint-disable-line @typescript-eslint/no-var-requires
-const sd = require('math-standard-deviation') // eslint-disable-line @typescript-eslint/no-var-requires
-const { possibleSpace } = require('./src/common') // eslint-disable-line @typescript-eslint/no-var-requires
+const { table } = require('table')
+const sd = require('math-standard-deviation')
+const { possibleSpace } = require('./src/common')
 const passwords = [
   '3dq*rT!7R-Ud5Pi',
   'p!w@%d9sCeRpsn6',

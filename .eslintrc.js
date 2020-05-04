@@ -19,6 +19,7 @@ module.exports = {
         allowedNames: ['self'],
       },
     ],
+    '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/no-unnecessary-type-assertion': ['error'],
     '@typescript-eslint/no-useless-constructor': 'warn',
     '@typescript-eslint/adjacent-overload-signatures': 'warn',
