@@ -75,16 +75,6 @@ Algorithm is described in [password_generator.cc](https://github.com/chromium/ch
 
 4. Shuffle up to 5 if found `--` and `__` in a generated password to improve readability
 
-## Background
-- Many areas (e.g. website) need authentication
-- Most and often used authentication apply password based
-- "Secured" password need some degree of complexity like
-  - password length contains at least "x" characters
-  - combining lowercase, uppercase, number and special character
-  
-  and there have many configuration about minimum password length, character combining algorithm
-- No configuration helps us to not decide
-
 ## TODO
 - [ ] CD
 
