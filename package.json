@@ -48,7 +48,7 @@
     "authentication"
   ],
   "author": "Nathachai Thongniran <inid3a@gmail.com> (https://github.com/jojoee)",
-  "license": "SEE LICENSE IN <LICENSE>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jojoee/chromepass/issues"
   },
