@@ -5,7 +5,7 @@ const generator = chromepass.v1.generator
 
 // generate test data
 const n = 100
-let passwords: string[] = []
+const passwords: string[] = []
 for (let i = 0; i < n; i++) {
   const password: string = generator()
   passwords.push(password)
