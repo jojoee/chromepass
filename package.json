@@ -70,8 +70,8 @@
     "table": "^5.4.6",
     "tap-nyc": "^1.0.3",
     "ts-node": "^7.0.1",
-    "typedoc": "^0.17.6",
-    "typedoc-plugin-markdown": "^2.2.17",
+    "typedoc": "^0.15.0",
+    "typedoc-plugin-markdown": "^1.1.27",
     "typescript": "^3.8.3"
   },
   "files": [
