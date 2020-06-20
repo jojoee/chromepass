@@ -1,4 +1,4 @@
-const shuffle = require('fast-shuffle').default
+const shuffle = require('fast-shuffle').shuffle
 const {
   lowercase,
   uppercase,
