@@ -2,8 +2,5 @@
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "standard.enable": false,
-  "standard.autoFixOnSave": false,
-  "files.exclude": {
-    "**/node_modules": false
-  }
+  "standard.autoFixOnSave": false
 }
