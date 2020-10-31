@@ -8,7 +8,6 @@
 
 ![continuous integration](https://github.com/jojoee/chromepass/workflows/continuous%20integration/badge.svg?branch=master)
 ![release](https://github.com/jojoee/chromepass/workflows/release/badge.svg?branch=master)
-![runnable](https://github.com/jojoee/chromepass/workflows/runnable/badge.svg?branch=master)
 
 Google Chrome password generator algorithm.
 
