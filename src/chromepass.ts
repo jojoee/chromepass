@@ -1,4 +1,3 @@
-const shuffle = require('fast-shuffle').shuffle
 const {
   lowercase,
   uppercase,
@@ -6,6 +5,21 @@ const {
   specialCharacter,
 } = require('./common').possibleSpace
 const passwordLength = 15
+
+/**
+ * @see https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+ * @param arr string[]
+ */
+function shuffle(arr: string[]) {
+  let items = [...arr] // clone
+
+  for (let i = items.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [items[i], items[j]] = [items[j], items[i]];
+  }
+
+  return items
+}
 
 /**
  * todo test
@@ -39,7 +53,9 @@ function generator(): string {
   // shuffle is it contains '--' and '__'
   let nRemainingAttempts = 5
   do {
-    password = shuffle(password.split('')).join('')
+    const chars = password.split('')
+    const shuffledChars = shuffle(chars)
+    password = shuffledChars.join('')
   } while ((password.includes('--') || password.includes('__')) && nRemainingAttempts-- > 0)
 
   return password

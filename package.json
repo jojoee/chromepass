@@ -53,9 +53,7 @@
     "url": "https://github.com/jojoee/chromepass/issues"
   },
   "homepage": "https://github.com/jojoee/chromepass",
-  "dependencies": {
-    "fast-shuffle": "^4.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/fast-shuffle": "^1.0.1",
     "@types/node": "^10.14.4",
