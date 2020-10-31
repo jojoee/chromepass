@@ -50,7 +50,7 @@ function generator(): string {
     password += possibleStr[randomBetween(0, possibleStr.length - 1)]
   }
 
-  // shuffle is it contains '--' and '__'
+  // shuffle when it contains '--' and '__'
   let nRemainingAttempts = 5
   do {
     const chars = password.split('')

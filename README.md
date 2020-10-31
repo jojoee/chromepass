@@ -81,4 +81,3 @@ Algorithm is described in [password_generator.cc](https://github.com/chromium/ch
 - [How do I decide whether @types/* goes into `dependencies` or `devDependencies`?](https://stackoverflow.com/questions/45176661/how-do-i-decide-whether-types-goes-into-dependencies-or-devdependencies)
 - [Chrome generated passwords not high entropy?](https://security.stackexchange.com/questions/190796/chrome-generated-passwords-not-high-entropy)
 - [Secure Password Generator](https://passwordsgenerator.net/)
-
