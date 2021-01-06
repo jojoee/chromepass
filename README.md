@@ -11,6 +11,8 @@
 
 Google Chrome password generator algorithm.
 
+**The application runs 100% locally, we do not track anything.**
+
 ## Install
 
 ```shell
