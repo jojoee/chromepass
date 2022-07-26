@@ -2,8 +2,6 @@
 [![npm version](https://img.shields.io/npm/v/chromepass.svg)](https://npmjs.org/package/chromepass)
 [![codecov](https://codecov.io/gh/jojoee/chromepass/branch/master/graph/badge.svg)](https://codecov.io/gh/jojoee/chromepass)
 ![License](https://img.shields.io/npm/l/chromepass)
-[![Dependency Status](https://david-dm.org/jojoee/chromepass.svg)](https://david-dm.org/jojoee/chromepass)
-[![devDependency status](https://img.shields.io/david/dev/jojoee/chromepass.svg)](https://david-dm.org/jojoee/chromepass#info=devDependencies)
 [![downloads](https://img.shields.io/npm/dt/chromepass.svg)](https://npmjs.org/package/chromepass)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
 ![continuous integration](https://github.com/jojoee/chromepass/workflows/continuous%20integration/badge.svg?branch=master)
